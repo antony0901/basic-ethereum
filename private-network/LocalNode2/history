@@ -1,0 +1,8 @@
+admin.addPeer("enode://a6eb99b968b599f5a54fea0a2513ee25b1dcbcb12446be5df233db52a6069dc29bad77cdf2a6e089537bd5cbba89bff211188a2961f8c452098d1963fc99d187@[::]:11111?discport=0"
+)
+admin.peers
+eth.coinbase
+personal.listWallets
+eth.coinbase
+web3.fromWei(eth.getBalance(eth.accounts[0]), "ether")
+admin.peers

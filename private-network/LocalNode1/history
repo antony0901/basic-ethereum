@@ -1,0 +1,19 @@
+personal.wallet
+personal.listWallet
+personal.listWallets
+eth.accounts[0]
+admin.nodeInfo.enode
+admin.peers
+eth.coinbase
+miner.setEtherbase(eth.accounts[1])
+eth.sendTransaction({from: eth.accounts[0], to: "0x8410556821e1a7d058654bcad9060caec23a163a", value: 1000})
+personal.listWallets
+eth.sendTransaction({from: eth.accounts[0], to: "0x8410556821e1a7d058654bcad9060caec23a163a", value: 1000})
+miner.start()
+miner.stop()
+admin.nodeInfo.enode
+admin.addPeer("enode://3fa18cd8c21256ea8b658b3aebd85d50913c7a8e584e4d763649e82a70051a3b670f5cbcd8e38fe987510ba120d3e56b47bd906cc9eb24872ee1a2c127029fb8@[::]:11111?discport=0")
+admin.peers
+admin.addPeer("enode://3fa18cd8c21256ea8b658b3aebd85d50913c7a8e584e4d763649e82a70051a3b670f5cbcd8e38fe987510ba120d3e56b47bd906cc9eb24872ee1a2c127029fb8@[192.168.100.17]:11111?discport=0")
+admin.peers
+admin.nodeInfo.enode
